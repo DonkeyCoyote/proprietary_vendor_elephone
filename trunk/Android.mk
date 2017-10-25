@@ -19,7 +19,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),trunk)
 
 
-ifeq ($(QCPATH),)
+#ifeq ($(QCPATH),)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := elephone
